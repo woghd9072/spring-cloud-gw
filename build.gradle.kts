@@ -21,8 +21,14 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    // Spring Cloud
     implementation("org.springframework.cloud:spring-cloud-starter-gateway")
     implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
+
+    // Logging
+    implementation("io.github.microutils:kotlin-logging-jvm:2.0.3")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
